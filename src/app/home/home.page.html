@@ -1,0 +1,72 @@
+<ion-content [fullscreen]="true">
+
+  <!-- Cabeçalho principal -->
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+<!--Aqui vai ficar o cabeçalho segundario-->
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Cadastro</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+  
+<!--Local da Pagina de Cadastro-->
+  <ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center">
+      Registro
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <div class="register-container">
+
+    <!-- Campo de e-mail -->
+    <ion-item>
+      <ion-icon name="mail-outline" slot="start"></ion-icon>
+      <ion-label position="floating">E-mail</ion-label>
+      <ion-input type="email" required></ion-input>
+    </ion-item>
+
+    <!-- Campo de data de nascimento -->
+    <ion-item>
+      <ion-icon name="calendar-outline" slot="start"></ion-icon>
+      <ion-label position="floating">Data de Nascimento</ion-label>
+      <ion-datetime presentation="date" placeholder="Selecione a data"></ion-datetime>
+    </ion-item>
+
+    <!-- Campo de senha -->
+    <ion-item>
+      <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+
+    <!-- Confirmar senha -->
+    <ion-item>
+      <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+      <ion-label position="floating">Confirmar Senha</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+
+    <!-- Botão de criar conta -->
+    <ion-button expand="block" fill="clear" color="medium" routerLink="/folder/inbox">
+      Criar Conta
+    </ion-button>
+
+    <!-- Voltar para login -->
+    <ion-button expand="block" fill="clear" color="medium" routerLink="/folder/inbox">
+      Já tenho uma conta
+    </ion-button>
+
+  </div>
+
+</ion-content>
+

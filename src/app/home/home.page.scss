@@ -1,0 +1,19 @@
+.register-container {
+  max-width: 350px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+ion-item ion-icon {
+  color: var(--ion-color-medium);
+  margin-right: 8px;
+}
+
+ion-button {
+  --border-radius: 20px;
+  font-weight: bold;
+}
+
+ion-title {
+  font-weight: bold;
+}

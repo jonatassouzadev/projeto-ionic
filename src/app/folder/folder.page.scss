@@ -1,0 +1,34 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+/* Centraliza o container do login */
+.login-container {
+  max-width: 350px;
+  margin: auto;
+  margin-top: 15%;
+}
+
+/* Ícones dentro dos inputs */
+ion-item ion-icon {
+  color: var(--ion-color-medium);
+  margin-right: 8px;
+}
+
+/* Botão principal */
+ion-button {
+  --border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Botão secundário (criar conta) */
+ion-button[color="medium"] {
+  font-size: 14px;
+  text-transform: none;
+}
+
+/* Título no header */
+ion-title {
+  font-weight: bold;
+  font-size: 20px;
+}
